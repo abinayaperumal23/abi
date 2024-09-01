@@ -1,0 +1,290 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;    
+}
+
+body
+{
+    color: rgb(12, 9, 5);
+    width: 100%;
+    
+}
+
+.scroll::-webkit-scrollbar-thumb { 
+    background: #888; 
+} 
+
+.scroll::-webkit-scrollbar-thumb:hover { 
+    background: #555; 
+} 
+
+.scroll::-webkit-scrollbar-button { 
+    display: none; 
+} 
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%; 
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: rgb(250, 136, 29);
+}
+ 
+.logo
+{
+    position: relative;
+    font-size: 35px;
+    color: rgb(30, 17, 61);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a
+{
+    display: inline-block;
+    display: block;
+    color: blueviolet;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 20px;
+    float: inline-start;
+}
+
+.navbar a:hover
+{
+    background: #28f1d0;
+    color: black
+}
+
+.container
+{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(228, 148, 248);
+    height: auto;
+
+}
+
+.home
+{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(blue.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    
+}
+
+.home-content
+{
+    max-width: 600px;
+    position: relative;
+    width: 100%;
+    left: 100;
+    a{
+        padding: 10px;
+        position: relative;
+        top: 15px;
+        font-size: 32;
+    }
+}
+
+.home-content h3
+{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h1
+{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.img
+{
+   position: relative;
+   float: right;
+  right: 300px;
+  img{
+   border-radius: 50%;
+  }
+}
+
+.about 
+{
+    padding: 10px;
+    position: relative;
+    top: 50;
+    left: 30;
+    width: 100%;
+    height: 80vh;
+    font-size: 26;
+    p{
+    text-indent: 50px;
+    text-align: justify;
+    font-family: "Rubik", sans-serif;
+    font-size: 20;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    width: 800px;
+    }
+    img{
+        position: relative;
+        float: right;
+        bottom: 400px;
+        right: 80px;
+        
+    }
+    h4{
+        padding: 10px;
+        font-size: 22;
+        
+    }
+    pre{
+        font-size: 18;
+        padding: 10px;
+        font-weight: bold;
+    }
+}
+
+.skills
+{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 50;
+    left: 30;
+    width: 100%;
+    height: 90vh;
+    font-size: 22;
+    img{
+        margin: 10px;
+        float: right;
+        position: relative;
+        left: 200px;
+        top: 40px;
+    }
+
+
+.a{
+    float: left;
+    position: relative;
+    right: 100px;
+}
+}
+.skills h2
+{
+    padding: 5px;
+    
+}
+
+.ol 
+{
+    padding: 20px;
+    color: rgb(8, 8, 6);
+    border: 2px solid black;
+    position: relative;
+    width: 600px;
+    left: 10px;
+
+}
+
+.ol li
+{
+    padding: 5px;
+    position: relative;
+    left: 20px;
+}
+
+.ul
+{
+    padding: 20px;
+    position: absolute;
+    border: 2px solid black;
+   top:300px;
+   right: 80px;
+   width: 650px;
+}
+
+.ul li{
+    padding: 5px;
+    position: relative;
+    left: 20px;
+}
+
+.projects
+{
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    top: 50;
+    left: 30;
+    height: 100vh;
+    font-size: 22;
+    h4{
+        padding: 10px;
+        font-size: 24;
+    }
+    p{
+        padding: 10px;
+        font-size: 20;
+    }
+    ul{
+        font-size: 20;
+        padding: 10px;
+        text-align: justify;
+        border: 2px solid rgb(228, 148, 248);
+        width: 80%;
+        height: 40vh;
+    }
+}
+
+.footer
+{
+    text-align: center;
+    padding: 40px;
+    background-color: gray;
+    color: white;
+    height: 300px;
+    width: 100%;
+}
+
+.footer h2
+{
+    padding: 10px;
+}
+
+.footer p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22;
+}
+
+.footer a
+{
+    padding: 10px;
+    position: relative;
+    top: 15px;
+    font-size: 32;
+}
+
